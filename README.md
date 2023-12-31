@@ -7,10 +7,10 @@ PostgreSQL || Golang || ReactJS
     Welcome to the ABC Pharmacy Project! This repository contains the source code and instructions to get started with our pharmacy management system. If you encounter any issues or have questions, feel free to reach out to us at <a href="mailto:chanukaddevin@gmail.com">chanukaddevin@gmail.com</a>.
   </p>
   <br>
-  <img src="https://your-image-url-here.png" alt="Project Screenshot">
+  <img src="https://github.com/h2oalphaYT/Pharmacy-Project/blob/main/iinvoice.png" alt="Project Screenshot">
   <br>
   <p>
-    <a href="https://chanuka-devin-info-portfolio.netlify.app">Visit My Portfolio</a>
+    <a href="https://chanuka-devin-info-portfolio.netlify.app">👨🏽‍🎓 Visit My Portfolio</a>
   </p>
 </div>
 
