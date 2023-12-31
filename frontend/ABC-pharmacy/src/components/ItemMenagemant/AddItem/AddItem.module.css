@@ -1,0 +1,21 @@
+@import "../../../vars.css";
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    box-shadow: 3px 2px 8px 5px rgba(0, 0, 0, 0.145); /* Add box shadow */
+    padding: 20px;
+    border-radius: 10px; /* Optional: for rounded corners */
+    background: linear-gradient(256.73deg, #a4b4d077 27.86%, #fdfffe), #fff;
+  }
+  
+  /* You might want to style the form itself, e.g., to control its width */
+  form {
+    width: 100%; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+    padding: 10px;
+    margin: 0 auto;
+  }
+

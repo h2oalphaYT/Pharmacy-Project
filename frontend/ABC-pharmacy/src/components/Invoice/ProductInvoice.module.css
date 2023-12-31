@@ -1,0 +1,138 @@
+/* ProductInvoice.module.css */
+@import "../../vars.css";
+
+.invoiceContainer {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width:90% ;
+    margin-left: 90px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    background: linear-gradient(256.73deg, rgb(255, 255, 255) 27.86%, #4388d73d), #060f8500;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  header h1 {
+  text-align: center;
+  margin-bottom: 20px; /* Keep existing bottom margin */
+  font-weight: 600;
+  color: white;        /* White font color */
+  background-color: black; /* Black background color */
+  padding: 10px;       /* Padding around the text */
+  margin: 20px 0; 
+  letter-spacing: 3px;
+  
+  }
+  
+  .meta, .inventory, .balance {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .meta th, .meta td, .inventory th, .inventory td, .balance th, .balance td {
+    padding: 10px;
+    border: 2px solid #ddd;
+  }
+  
+  .meta th, .inventory th, .balance th {
+    background-color: #f8f8f8;
+  }
+  
+  .add, .cut {
+    cursor: pointer;
+    color: aqua;
+    font-size: 16px;
+  }
+
+  
+  aside {
+    margin-top: 30px;
+    display: flex;           
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column;  
+  }
+  aside hr {
+    height: 1px;
+    background-color: #000000; /* Light grey line */
+    margin: 20px 0; /* Spacing above and below the line */
+  }
+  
+  aside h1 {
+    font-size: 1.25em;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 20px;
+  }
+
+  .addressContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .inputGroup {
+    margin-bottom: 15px;
+  }
+  
+  .inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #6b3cc9;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 10px;
+  }
+  
+  .inputGroup input:focus {
+    border-color: #007bff;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  .inputGroup input::placeholder {
+    color: #888;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .inputGroup input {
+      font-size: 14px;
+    }
+  }
+  
+  .inputGroup {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ 
+  

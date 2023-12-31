@@ -1,0 +1,236 @@
+@import "../../vars.css";
+
+.image2Icon {
+    position: relative;
+    width: 514px;
+    height: 514px;
+    object-fit: cover;
+  }
+
+  .image2Parent {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 760px;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-89xl);
+    color: var(--color-darkorchid);
+  } 
+
+.frameParent,
+.button1{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .frameParent {
+    width: 542px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-xl);
+  }
+
+  .webMobileAppDevelopmentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: var(--poppins-h3-poppins-27px-semibold);
+  }
+
+  .webMobile {
+    position: relative;
+    letter-spacing: 0.4px;
+    line-height: 33px;
+    font-weight: 600;
+    display: inline-block;
+    width: 507px;
+    font-size: 27px;
+  }
+
+  .yourWebAnd {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    color: black;
+    font-size: 18px;
+  }
+
+  @media screen and (max-width : 1200px) {
+
+    .image2Parent{
+      top: 857px;
+      left: 100px;
+      align-items: center;
+    }
+
+  }
+
+  @media screen and (min-width : 1440px){
+
+    .image2Parent {
+     
+      position: absolute;
+      top: 960px;
+      left: 280px;
+      flex-direction: row;
+      align-items: center;
+      gap: var(--gap-89xl);
+      color: var(--color-darkorchid);
+    } 
+    .image2Icon {
+      position: relative;
+      width: 514px;
+      height: 514px;
+      object-fit: cover;
+    }
+
+    .frameParent,
+.button1{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .frameParent {
+    width: 742px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-xl);
+  }
+
+  .webMobileAppDevelopmentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: var(--poppins-h3-poppins-27px-semibold);
+  }
+
+  .webMobile {
+    position: relative;
+    letter-spacing: 0.4px;
+    line-height: 33px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    font-size: 27px;
+  }
+
+  .yourWebAnd {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    color: black;
+    font-size: 18px;
+    width: fit-content;
+  }
+
+  }
+
+  @media screen and (max-width : 768px) {
+
+    .image2Parent{
+      display: flex;
+      flex-direction:flex-start;
+      gap: var(--gap-xl);
+      position: absolute;
+      top: 843px;
+      left: 40px;
+      width: 688px;
+      flex-direction: row;
+      align-items: center;
+      color: var(--color-darkorchid);
+    }
+    .yourWebAnd{
+      font-size: var(--font-size-base);
+      align-self: stretch;
+      position: relative;
+    }
+
+    .image2Icon {
+      position: relative;
+      width: 275px;
+      height: 275px;
+      object-fit: cover;
+    }
+
+    .webMobile{
+      position: relative;
+      width: 100%;
+      height: 95px ;
+      letter-spacing: 0.4px;
+      line-height: 33px;
+      font-family: var(--poppins-h3-poppins-27px-semibold);
+      align-self: stretch;
+
+     
+    }
+
+  }
+
+
+  @media screen and  (max-width : 375px) {
+
+    .image2Parent {
+      display: flex;
+      top: 649px ;
+      width: 335px;
+      height: 572px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* Stack children vertically */
+      text-align: center; /* Center text */
+      /* Add padding/margin as needed */
+    }
+    
+    .image2Icon {
+      top: 0;
+      position: relative;
+      width: 275px;
+      height: 275.82px;
+      
+    }
+    
+    .frameParent {
+      display: block; /* Use block instead of flex for a single-column layout */
+      width: 100%;
+      height: 277px;
+     
+       /* Full width of the parent */
+    }
+    
+    .webMobileAppDevelopmentWrapper {
+      margin-bottom: 30px; /* Space between title and paragraph */
+      padding: 24px var(--padding-xl) 32px;
+      width: 335px;
+      height: 66px;
+
+    }
+    
+    .webMobile {
+      font-size: 27px; /* Larger text for the title */
+      align-self: stretch;
+      line-height: 33px;
+      padding: 0 50px 0 0;
+
+    }
+    
+    .yourWebAnd {
+      font-size: 16px; /* Smaller text for the paragraph */
+      width: 100%;
+      height:auto;
+      margin-left: -25px;
+      align-self: stretch;
+      font-family: Inter;
+
+    }
+    
+    .button1 {
+      margin-top: 20px; /* Space between paragraph and button */
+      justify-content: center;
+      padding-right: 70px;
+    }
+    
+
+  }

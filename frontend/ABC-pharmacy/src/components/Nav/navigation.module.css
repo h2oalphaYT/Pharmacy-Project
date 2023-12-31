@@ -1,0 +1,41 @@
+@import "../../vars.css";
+
+
+@media screen and  (max-width: 375px) {
+    .navbar-expand-sm {
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      
+    }
+  
+    .navbar-expand-sm .navbar-collapse {
+      display:none !important;
+    }
+  
+    .navbar-expand-sm .navbar-toggler {
+      display:block;
+    }
+
+    #Container{
+    width: 375px;
+    overflow-x: hidden;
+    }
+   
+  }
+
+
+
+.navlink {
+    color: var( --color-white) !important;
+    font-weight: 500;
+  }
+
+
+.navbarTogglerIcon {
+    filter: invert(100%);
+}
+.navDropdownToggle{
+  color: rgb(255, 255, 255) !important;
+}
+  
+  

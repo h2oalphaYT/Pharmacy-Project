@@ -1,0 +1,11 @@
+@import "../../../vars.css";
+
+.card_design{
+    min-height: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    box-shadow: 3px 2px 8px 5px rgba(0, 0, 0, 0.145);
+    background: linear-gradient(256.73deg, #a4b4d077 27.86%, #fdfffe), #fff;
+}
+

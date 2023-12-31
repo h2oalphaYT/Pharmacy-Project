@@ -1,0 +1,19 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output directories
+/dist/
+/bin/
+/vendor/
+
+# Dependency directories
+/vendor/
+/go.sum
+/go.mod
+
+# IDE-specific files and directories
+.idea/
+.vscode/

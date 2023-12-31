@@ -1,0 +1,153 @@
+@import "../../vars.css";
+
+.container{
+    position: absolute;
+    top: 1600px;
+    background-color: var(--color-darkorchid);
+    width: 100%;
+    padding: var(--padding-21xl) var(--padding-61xl) var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-21xl);
+    font-size: var(--font-size-base);
+    font-family: var(--font-lato);
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+.iconname {
+    color: aliceblue;
+    font-weight: 600;
+    
+}
+
+.list{
+    margin: 12px;
+        
+}
+
+.discription{
+    justify-content: space-between;
+    column-gap: 400px;
+    display :table-column;
+    padding-left: 650px;
+    
+}
+.technologies{
+  padding-left: 350px
+}
+
+@media screen and (min-width : 1440px){
+
+  .container{
+    display: flex;
+    top: 2011px;
+    width: 100%;
+    padding: 40px 60px 20px 60px;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: column;
+   
+  }
+
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width : 1200px) {
+
+  .container{
+    display: flex;
+    top: 1711px;
+    max-width: 1200px;
+    padding: 40px 60px 20px 60px;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: column;
+  }
+
+  .technologies{
+    padding-left: 40px;
+    
+  }
+  
+}
+
+@media screen and (max-width : 768px) {
+
+  .container{
+    display: flex;
+    top: 1534px;
+    width: 768px;
+    padding: 40px 60px 20px 60px;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: column;
+  }
+
+  .technologies{
+    padding-left: 10px;
+    margin-top: 30px;
+    
+    
+  }
+  .services{
+    margin-top: 30px;
+  }
+
+  
+}
+
+@media (max-width : 375px) {
+    .container {
+       margin-top:360px ;
+       width: 100%;
+       padding: var(--padding-xl);
+       box-sizing: border-box;
+       gap: var(--gap-xl); /* Adjust gap as needed */
+       font-size: var(--font-size-base);
+       font-family: var(--font-lato);
+
+    }
+
+    .technologies{
+      padding-left: 40px;
+      
+    }
+    .services{
+      padding-left: 35px;
+    }
+
+    .list {
+        margin-left: 0; /* Align list items to the left */
+      }
+ 
+
+    p {
+      padding-left: 25px;
+       inline-size:100% !important;
+    }
+    .image_icon{
+      padding-left: 25px;
+    }
+
+      a {
+        display: flex;
+        
+        justify-content: flex-start;
+      }
+
+}
+
+
+
+

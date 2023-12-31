@@ -1,0 +1,235 @@
+@import "../../vars.css";
+
+.frameParent {
+    width: 542px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-xl);
+  }
+
+  .frameGroup {
+    position: absolute;
+    top: 1120px;
+    left: 188px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-89xl);
+    color: var(--color-darkorchid);
+  }
+
+  .webMobileAppDevelopmentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: var(--poppins-h3-poppins-27px-semibold);
+  }
+
+  .webMobile {
+    position: relative;
+    font-size: 27px;
+    letter-spacing: 0.4px;
+    line-height: 33px;
+    font-weight: 600;
+    display: inline-block;
+    width: 507px;
+  }
+
+  .yourWebAnd {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    color: black;
+    font-size:18px;
+  }
+
+.frameParent,
+.button1{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .image1Icon {
+    position: relative;
+    width: 414px;
+    height: 416px;
+    object-fit: cover;
+  }
+
+  @media screen and (min-width : 1440px){
+
+    .frameParent {
+      width: 742px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--gap-xl);
+    }
+
+    .frameGroup {
+      position: absolute;
+      top: 1490px;
+      left: 338px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: var(--gap-89xl);
+      color: var(--color-darkorchid);
+    }
+
+    .image1Icon {
+      position: relative;
+      width: 514px;
+      height: 514px;
+      object-fit: cover;
+    }
+
+    .webMobileAppDevelopmentWrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-family: var(--poppins-h3-poppins-27px-semibold);
+    }
+
+    .webMobile {
+      position: relative;
+      font-size: 27px;
+      letter-spacing: 0.4px;
+      line-height: 33px;
+      font-weight: 600;
+      display: inline-block;
+      width: 100%;
+    }
+
+
+
+  }
+  @media screen and (max-width : 1200px) {
+
+    .frameGroup{
+      top: 1283px;
+      left: 100px;
+      align-items: center;
+    }
+
+  }
+
+  @media screen and (max-width : 768px) {
+
+    .frameGroup{
+      align-items: center;
+      display: flex;
+      flex-direction:flex-start;
+      gap: var(--gap-xl);
+      position: absolute;
+      top: 1178px;
+      left: 40px;
+      width: 688px;
+      flex-direction: row;
+      align-items: center;
+      color: var(--color-darkorchid);
+    }
+
+    .image1Icon{
+      position: relative;
+      width: 275px;
+      height: 275px;
+      object-fit: cover;
+    }
+
+    .yourWebAnd{
+      font-size: var(--font-size-base);
+      align-self: stretch;
+      position: relative;
+    }
+
+    .webMobile{
+      position: relative;
+      width: 393px;
+      height: 33px ;
+      letter-spacing: 0.4px;
+      line-height: 33px;
+      font-family: var(--poppins-h3-poppins-27px-semibold);
+      align-self: stretch;
+
+     
+    }
+
+
+
+  }
+
+  @media screen and (max-width : 375px) {
+
+  .frameGroup{
+    display: flex;
+    left: -50px;
+    top:1550px;
+    text-align: center;
+
+
+  }
+    
+    .image1Icon {
+     
+      top: -300px;
+      left:-390px;
+      position: relative;
+      width: 275px;
+      height: 276px;
+      
+    }
+    
+    .frameParent {
+      display: block; /* Use block instead of flex for a single-column layout */
+      width: 100%;
+  
+     
+       /* Full width of the parent */
+    }
+    
+    .webMobileAppDevelopmentWrapper {
+      margin-bottom: 30px; /* Space between title and paragraph */
+      padding: 24px var(--padding-xl) 32px;
+      text-align: center;
+    
+
+
+    }
+    
+    .webMobile {
+      position: relative;
+      font-size: 27px; /* Larger text for the title */
+      align-self: stretch;
+      line-height: 33px;
+      padding: 0 20px 0 0;
+      letter-spacing: 0.4px;
+      width:375px;
+  
+
+    }
+    
+    .yourWebAnd {
+      font-size: 16px; /* Smaller text for the paragraph */
+      width: 100%;
+      height:auto;
+      margin-left: 50px;
+      padding: 0 50px 0 0;
+      align-self: stretch;
+      font-family: Inter;
+
+    }
+    
+    .button1 {
+      margin-top: 20px; /* Space between paragraph and button */
+      justify-content: center;
+      padding-right: 0;
+    }
+   
+
+  }
+
+
